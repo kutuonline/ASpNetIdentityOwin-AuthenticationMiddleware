@@ -1,0 +1,22 @@
+step-by-step
+=======================================================================================
+requirements:
+install-package Microsoft.Aspnet.Identity.Core
+install-package Microsoft.Aspnet.Identity.EntityFramework
+install-package Microsoft-Aspnet.Identity.Owin
+
+1. set webConfig
+2. create identityModels on models
+3. create identityConfig on models
+4. create startup, right click on project then add new item to add startup class
+5. create homeController on controller
+6. create index for views, just right click index on homeController
+7. create accountViewModel on models
+8. create accountController on controller
+9. create register for views, just right click register on accountController
+10. modify _Layout on views/shared
+11. create _LoginPartial on views/shared
+
+then build the project
+
+now you can register the user using the application
