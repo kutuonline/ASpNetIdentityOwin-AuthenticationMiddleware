@@ -65,3 +65,5 @@ E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\bin\System.Web.Mvc.xml
 E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\obj\Debug\ASPNetIdentity.csprojResolveAssemblyReference.cache
 E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\obj\Debug\ASPNetIdentity.dll
 E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\obj\Debug\ASPNetIdentity.pdb
+E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\DAD\Latihan\ASPNetIdentity\ASPNetIdentity\bin\Microsoft.Owin.Host.SystemWeb.xml

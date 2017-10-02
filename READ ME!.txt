@@ -20,3 +20,17 @@ install-package Microsoft-Aspnet.Identity.Owin
 then build the project
 
 now you can register the user using the application
+
+=======================================================================================
+
+continuing from above
+
+12. install-package microsoft.owin.host.systemweb
+13. adding LoginViewModel on AccountViewModel
+14. adding methods for signIn and userManager on AccountController
+15. adding Login action methods on AccountController
+16. adding Helper class redirectToLocal on AccountController
+17. create login view
+18. adding some code on register method and adding logOff method on AccountController
+
+now you check the login/logoff and register user

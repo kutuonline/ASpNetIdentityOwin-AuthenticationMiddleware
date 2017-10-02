@@ -12,7 +12,7 @@ using Microsoft.Owin.Security.Cookies;
 
 namespace ASPNetIdentity
 {
-    public class Startup
+    public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {

@@ -30,6 +30,8 @@ namespace ASPNetIdentity
 
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context)
         {
+            var store = new UserStore<ApplicationUser>(context.Get<ApplicationDbContext>());
+
             var manager = new ApplicationUserManager(new UserStore<ApplicationUser>(context.Get<ApplicationDbContext>()));
             return manager;
         }
